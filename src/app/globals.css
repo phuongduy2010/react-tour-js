@@ -100,6 +100,33 @@ a {
   text-decoration: none;
 }
 
+.avatar {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.card {
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.profile {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+ul {
+  padding: 0px 10px 0px 20px;
+  padding-inline-start: 20px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
